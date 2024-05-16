@@ -1,0 +1,184 @@
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url(GL.jpg); 
+    background-size:cover;
+}
+
+a {
+    cursor: pointer;
+}
+
+button {
+    padding: 1rem 3rem;
+    font-size: 1rem;
+    border: none;
+    color: Black;
+    background: gold;
+    cursor: pointer;
+    border-radius: 50px;
+    margin:20px;
+}
+
+nav {
+    height: 60px;
+    background-color:black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0rem 2rem"
+}
+
+.logo {
+    color: goldenrod;
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 0 2rem ;
+}
+
+.nav-items a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+}
+
+.page-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 95vh;
+    padding: 0rem 2rem;
+}
+
+.column-left {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: black;
+    padding: 0rem 2rem;
+}
+
+.column-left h1 {
+    margin-bottom: 2rem;
+    font-size: 3rem;
+    background-color:#323232;
+    color: goldenrod;
+}
+.column-left p {
+    margin-bottom: 3rem;
+    font-size: 1.5rem;
+    line-height:1.5 ;
+    background-color:#323232;
+    color: goldenrod;
+}   
+
+.aboutpg {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: goldenrod;
+    padding: 3rem 6rem;
+}
+
+.aboutpg h1 {
+    margin-bottom: 2rem;
+    font-size: 2.5rem;
+    color: goldenrod;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color:rgb(244, 184, 0);
+    padding: 0rem 1rem; font-size:30px;
+}
+.content h4{
+    background-color:#323232 ;
+    color: goldenrod;
+    padding: 0.5rem;
+    
+}
+
+.content p{
+    background-color:#323232 ;
+    color: goldenrod;
+    padding: 0.5rem;
+    font-size: 1.5rem;
+}
+
+.homepage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    color: goldenrod;
+    padding: 0rem 2rem; 
+    font-size:40px;
+}
+
+.homepage p {
+    padding: 1rem;
+    font-size: 2rem;
+}
+
+.loginmenu {
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem ;
+}
+
+
+.listpage {
+    color:red;
+    padding: 1rem;
+    
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: goldenrod;
+    padding: 3rem 5rem;
+}
+
+.signup {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: goldenrod;
+    padding: 3rem 5rem;
+}
+.edituser {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    color: goldenrod;
+    padding: 3rem 5rem;
+    
+}
+.deletef {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem ;
+    
+}
+.deletef button {
+    background-color: red;
+    color: black;
+    font-size: bold;
+}
